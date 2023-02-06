@@ -95,3 +95,9 @@ while a < 6:
         break
     a += 1
  
+b = 3
+while b < 9:
+    print(b)
+    if b == 7:
+        break
+    b += 2
