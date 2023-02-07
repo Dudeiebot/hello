@@ -96,8 +96,25 @@ while a < 6:
     a += 1
  
 b = 3
-while b < 9:
-    print(b)
-    if b == 7:
-        break
+while b < 11:
     b += 2
+    if b == 7:
+        continue
+    print(b)
+
+#i = 1
+#while i < 5:
+#    print (i)
+#    if i == 3:
+#       break
+#    i += 1
+
+
+for x in range(3, 7):
+    print(x)
+
+footballer = ["pele", "neymar", "ronaldo", "messi"]
+country = ["brazil", "brazil2", "portugal", "argentina"]
+for x in footballer:
+    for y in country:
+        print(x, y)
