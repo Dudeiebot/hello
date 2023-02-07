@@ -120,10 +120,9 @@ for x in footballer:
         print(x, y)
 
 def function_main(fname):
-   
-    function_main("siddiq")
-    function_main("penny")
-    function_main("tally")
-    function_main("yeats")
-
-    print(fname + "peculiar")
+   print(fname + "peculiar")
+    
+function_main("siddiq")
+function_main("penny")
+function_main("tally")
+function_main("yeats")
