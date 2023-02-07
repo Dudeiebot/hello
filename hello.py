@@ -1,10 +1,10 @@
 #import random
 #x = "baed"
 #def orange():
-shii = "HELLO WORLD"
 y = int(10)
 #print(bool(y))
 #print(bool(x))
+shii = "HELLO WORLD"
 print(shii.lower())
 print(isinstance(y, bool))
 
@@ -18,12 +18,12 @@ print(isinstance(y, bool))
 
 
 
-class myclass():
-    def _len_(self):
-        return 0
+#class myclass():
+ #   def _len_(self):
+  #      return 0
 
-myobj = myclass
-print(bool(myobj))
+#myobj = myclass
+#print(bool(myobj))
 
 
 thislist = list(("pen", "mirror", "school", "people"))
@@ -118,3 +118,12 @@ country = ["brazil", "brazil2", "portugal", "argentina"]
 for x in footballer:
     for y in country:
         print(x, y)
+
+def function_main(fname):
+   
+    function_main("siddiq")
+    function_main("penny")
+    function_main("tally")
+    function_main("yeats")
+
+    print(fname + "peculiar")
