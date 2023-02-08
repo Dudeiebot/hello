@@ -22,6 +22,9 @@ print(multiplying(3))
 print(multiplying(2))
 print(multiplying(1))
 
+
+#these practically list all the factorial of a number added
+
 def tri_recursion(n):
     if(n > 0):
        result = n + tri_recursion(n-1)
@@ -33,3 +36,12 @@ def tri_recursion(n):
 print("recursion example:")
 tri_recursion(7)
 
+
+
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result = result * i
+    return result
+
+print(factorial(5))

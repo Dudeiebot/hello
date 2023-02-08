@@ -1,4 +1,4 @@
-# hello
+hello
 just doing some shii
 
 
@@ -9,3 +9,5 @@ bro alot is going on with indentation and knowing when to use them at the right 
 
 
 indentation got you feeling crazy just because it follows the pattern of the inndetation instead of using those braces about. 
+#M1pro 
+Damn the M1 macbook pro, let watch the efficiency from here onsward. NO DISTRACTION only code 
