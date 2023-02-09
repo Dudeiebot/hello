@@ -45,3 +45,13 @@ def factorial(n):
     return result
 
 print(factorial(5))
+
+def functn(b):
+    return lambda x : b + x
+
+myaddition = functn(100)
+addbro = functn(20)
+print(myaddition(10))
+print(addbro(10))
+
+
