@@ -1,7 +1,7 @@
 class myLanguage:
     def __init__(languagename, exhibit1, exhibit2):
       languagename.exhibit1 = exhibit1
-      languagename.exhibit2 = exhibit2                  #GG the m,ost perfect example to understand the init and assigning of the variables.
+      languagename.exhibit2 = exhibit2                  #GG the most perfect example to understand the init and assigning of the variables.
 
 learn = myLanguage ("yoruba", "igbo")
 print("my languages are: " + learn.exhibit1 + " and " + learn.exhibit2 )
@@ -37,10 +37,6 @@ p2.myfunc()
 
 
 
-
-
-
-
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -51,5 +47,11 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
+
+class Student(Person):      #deriv/child class to Person above.
+    pass
+
+s1 = Student("paul", 28)
+s1.myfunc()
 
 

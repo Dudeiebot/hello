@@ -54,4 +54,5 @@ addbro = functn(20)
 print(myaddition(10))
 print(addbro(10))
 
-
+def greetings(name):
+    print("good" + name)
