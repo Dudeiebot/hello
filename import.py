@@ -6,5 +6,9 @@ x = datetime.datetime.now()
 print(x)
 print(x.strftime("%H"))  #strftime() inputs some certain format code in. just like these
 
-
- 
+import platform
+x = platform.system()
+b = platform.machine()
+print(x)
+print(platform.platform())
+print(b)
