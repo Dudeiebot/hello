@@ -136,5 +136,3 @@ def factorial(n):
 
 print("The factorial of 5 is", factorial(5))
 
-
-

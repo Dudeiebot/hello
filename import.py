@@ -12,3 +12,11 @@ b = platform.machine()
 print(x)
 print(platform.platform())
 print(b)
+
+#import re
+
+import camelcase  #regarding pip and installation of camelcase
+
+c = camelcase.CamelCase()
+txt = "hello world"
+print(c.hump(txt))
