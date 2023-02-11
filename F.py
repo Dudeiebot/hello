@@ -7,4 +7,4 @@ print(f.read(5))
 
 #kind of having issues here, have to debug before it run well, maybe i got to find out what is happening later on the day.
 
-f = ("open.txt", "x")
+f = ("open.txt", "w")

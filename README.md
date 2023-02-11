@@ -1,6 +1,4 @@
 
-Hello
-
 just doing some shii
 
 Going to be recording daily activities here to check up on something
