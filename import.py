@@ -20,3 +20,8 @@ import camelcase  #regarding pip and installation of camelcase
 c = camelcase.CamelCase()
 txt = "hello world"
 print(c.hump(txt))
+
+
+import matplotlib
+print(matplotlib.__version__)
+
