@@ -16,8 +16,9 @@ x = np.array([3, 9, 6, 12])
 y = np.array([20, 60, 40, 100])
 
 plt.subplot(1, 2, 2)  #talking about rows and columns that means these have 1 row and 2 columns
-plt.plot(x)
-plt.plot(y)
+plt.scatter(x, y, cmap='viridis')
+
+plt.colorbar()
 
 plt.show()
 
