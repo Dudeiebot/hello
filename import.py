@@ -22,6 +22,6 @@ txt = "hello world"
 print(c.hump(txt))
 
 
-import matplotlib
-print(matplotlib.__version__)
+#import matplotlib
+#print(matplotlib.__version__)  
 
