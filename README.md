@@ -12,4 +12,6 @@ M1pro
 
 Damn the M1 macbook pro, let watch the efficiency from here onward. NO DISTRACTION only code
 
+so practically machine learning need to be learned but we did look into it latter but for now we brushing through it and just sight seeing.
+
 all the enforcement and barrier also ADHD in the notepad
