@@ -1,2 +1,25 @@
 Hey bullish here, setting the input in and giving you reason to be bullish as fvck
 you know for a reason these is a test and dont forget that everything has a reason for there input.
+
+
+
+word = input("Enter a message: ")
+
+# Define an array of characters representing the ASCII table
+ascii_table = [chr(i) for i in range(128)]
+ascii_num = ascii_table.index(word)
+
+binary = [0] * 32  # array to store binary digits
+i = 0
+while ascii_num > 0:
+    binary[i] = ascii_num % 2
+    ascii_num = ascii_num // 2
+    i += 1
+
+j = i - 1
+if j >= 0 and binary[j] == 0:
+    # Dark emoji
+    print("\U000026AB")
+else:
+    # Light emoji
+    print("\U0001F7E1")
