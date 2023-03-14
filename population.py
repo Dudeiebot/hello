@@ -1,9 +1,8 @@
 
 
-#joke on me i didnot get the input but here is it biish
 start = 0
 while start < 9:
-    start = int(input("Enter the current population: "))
+    start = int(input("Enter the current population: ")) #returning the input from the user as an int just like converting it
 
 end = 0
 while end < start:

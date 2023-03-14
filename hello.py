@@ -5,7 +5,7 @@ y = int(10)
 #print(bool(y))
 #print(bool(x))
 shii = "HELLO WORLD"
-print(shii.lower())
+print(shii.lower())  # to lower case
 print(isinstance(y, bool))
 
 
