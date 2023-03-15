@@ -1,5 +1,5 @@
 
-while True:
+while True:  #used instead of a do while loop that python does not have but we need user input to be true  
     height = int(input("Tell me the Height: "))
     if height >= 0 and height <= 15:
         break

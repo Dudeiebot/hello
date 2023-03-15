@@ -16,9 +16,9 @@ def encipher(key):
     print(cipher_text)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2 or not sys.argv[1].isdigit():
+    if len(sys.argv) < 2 or not sys.argv[1].isdigit(): #in regards to the sys library
         print("Usage: ceasar key")
-        sys.exit(1)
+        sys.exit(1)  #echo$? to check the return output on the CLI
 
     key = int(sys.argv[1])
     encipher(key)
