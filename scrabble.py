@@ -28,4 +28,4 @@ def main():
         print("That's a tie!")
 
 if __name__ == '__main__':  #here emsure if the code is being run independently without the need for additional software or programs to be installed or connected.
-    main()
+    main()   
