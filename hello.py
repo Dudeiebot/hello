@@ -30,10 +30,10 @@ thislist = list(("pen", "mirror", "school", "people"))
 mylist = ["show", "aeyan", "rabbit", "inter"]
 #thislist[2]= "negro"
 #thislist.insert(4, "banana")
-#mylist.pop(2)
+mylist.pop(2)
 #del thislist[4]
-thislist.remove("pen")
-mylist.append(thislist)
+#thislist.remove("pen")
+#mylist.append(thislist)
 print(mylist)
 #mylist.clear()
 #thislist.extend(mylist)
