@@ -9,12 +9,12 @@ menu = {
     "Taco": 3.00,
     "Tortilla Salad": 8.00
 }
-
+# these is a typical output and input restaurant kind of goods and services.
 def get_user_input():
     while True:
         try:
             user_input = input("Item: ").title()
-        except EOFError:
+        except EOFError:              #helps to end the session with ctrl d
             print("Order ended.")
             return None
         
@@ -24,7 +24,7 @@ def get_user_input():
             print(f"{user_input} not found in menu.")
 '''
 def validate_more_items():
-    while True:
+    while True:      if you want to make it more user efficient.
         more_items = input("Add more items? (y/n)").lower()
         if more_items in ('y', 'n'):
             return more_items == 'y'
